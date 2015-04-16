@@ -1,0 +1,38 @@
+ body{
+ 	background-color: black;
+	background-image: url("landscape.jpg");
+}
+ h1 {
+
+	color: white;
+	font-family: Futura, 'Trebuchet MS', Arial, sans-serif;
+	font-size: 36px;
+
+	font-style: normal;
+	font-variant: small-caps;
+	font-weight: 400;
+	line-height: 36px;
+	padding: 0 0 0 50px;
+}
+p {
+	font-family: Futura, 'Trebuchet MS', Arial, sans-serif;
+	font-size: 16px;
+	font-style: normal;
+	font-variant: normal;
+	font-weight: 400;
+	line-height: 20px;
+	color: white;
+	padding:0px 0px 0px 50px;
+}
+
+.body .panel{
+	background-color: black;
+	border-radius: 1px;
+	border-style: dashed;
+}
+
+.panel-body{
+	padding-left:0;
+	background-color: black;
+}
+
