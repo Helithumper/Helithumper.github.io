@@ -10,7 +10,7 @@ body{
 
 }
 p{
-  
+
 }
 .navbar .navbar-nav {
   display: inline-block;
@@ -20,4 +20,12 @@ p{
 
 .navbar .navbar-collapse {
   text-align: center;
+}
+
+.panel-title{
+  vertical-align:middle;
+}
+
+.coolstuffbro{
+  font-family:
 }
