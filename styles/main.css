@@ -7,17 +7,19 @@ background-size: cover;
 }
 
 p{
-  font-family: "Palatino Linotype", "Book Antiqua", Palatino, serif;
+  font-family: 'Helvetica', 'Arial', sans-serif;
   font-color: "black";
   font-size: 16px;
 }
 
 .navbar .navbar-nav {
+  font-family: 'Helvetica', 'Arial', sans-serif;
   display: inline-block;
   float: none;
   vertical-align: top;
 }
 
 .navbar .navbar-collapse {
+  font-family: 'Helvetica', 'Arial', sans-serif;
   text-align: center;
 }
