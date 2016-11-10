@@ -1,93 +1,162 @@
+<!DOCTYPE html>
 <html>
+
 <head>
-	<title>Peyton Duncan</title>
-	<link rel="shortcut icon" type="image/x-icon" href="titleicon.ico" />
-	<link rel="stylesheet" href="styles/main.css">
+  <title>Peyton's Homepage</title>
+  <meta charset="utf-8" />
 
-	<!-- Latest compiled and minified CSS -->
-	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/css/bootstrap.min.css">
+  <link rel="stylesheet" href="res/css/styles.css" type="text/css" />
 
-	<!-- Optional theme -->
-	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/css/bootstrap-theme.min.css">
-	<link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css">
+  <link href="https://fonts.googleapis.com/css?family=Roboto:300" rel='stylesheet' type='text/css' />
+  <link href="https://fonts.googleapis.com/css?family=Itim" rel="stylesheet"> 
+
+  <script src="https://code.jquery.com/jquery-3.1.1.min.js" integrity="sha256-hVVnYaiADRTO2PzUGmuLJr8BLUSjGIZsDYGmIJLv2b8=" crossorigin="anonymous"></script>
+  <script src="res/js/prefixfree.min.js"></script>
+  <script src="res/js/jquery.keyframes.min.js"></script>
+  <script src="res/js/clock.js"></script>
+  <script src="res/js/date.js"></script>
+  <script src="res/js/snowfall.js"></script>
 </head>
-
-
 
 <body>
 
-	<nav class="navbar navbar">
-		<div class="container-fluid">
-			<!-- Brand and toggle get grouped for better mobile display -->
-			<div class="navbar-header">
-				<button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
-					<span class="sr-only">Toggle navigation</span>
-					<span class="icon-bar"></span>
-					<span class="icon-bar"></span>
-					<span class="icon-bar"></span>
-				</button>
-			</div>
+  <header>
+    <form action="https://www.google.com/search" method="get"><input id="input-search" type="text" autocomplete="off" name="q" placeholder="Google-Search" autofocus></form>
+    <div class="search-suggestions"></div>
+  </header>
 
+  <main>
+    <div class="clock">
+    <br>
+      <span id="date"></span>
+      <br>
+      <span id="clock"></span>
+    </div>
+    <div class="flex-container">
+      <div class="link-box" id="box-1">
+        <div class="headline">
+          <h2>SCHOOL</h2></div>
+          <ul>
+            <li><a href="http://gmail.com">Gmail</a></li>
+            <li><a href="http://calendar.google.com">Calendar</a></li>
+            <li><a href="https://drive.google.com">Google Drive</a></li>
+            <li><a href="https://maps.google.com/">Google Maps</a></li>
+            <li><a href="http://keep.google.com">Google Keep</a></li>
+            <li><a href="https://thewalkerschool.org/">Walker Homepage</a></li>
+            <li><a href="http://www.thewalkerschool.org/faculty_staff/teacherpages/index.aspx?">Walker Teacher Pages</a></li>
+            <li><a href="http://grammarly.com">Grammarly</a></li>
+            <li><a href="https://www.jstor.org">JStor</a></li>
+          </ul>
+        </div>
 
-			<!-- Collect the nav links, forms, and other content for toggling -->
-			<div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
-				<ul class="nav navbar-nav">
-					<li class="active"><a href="#"><strong>Home</strong><span class="sr-only">(current)</span></a></li>
-					<!-- <li><a href="github.html">GitHub</a></li> -->
-					<li><a href="https://www.github.com/Helithumper" target="_blank">GitHub</a></li>
-          <li><a href="favoritevideos.html">Favorite Videos</a></li>
-					<li><a href="music.html">Music</a></li>
-					<li><a href="4096.html">4096</a></li>
-					<li><a href="widgets.html">Widgets</a></li>
-					<li><a href="http://steamcommunity.com/id/Helithumper" target="_blank">Steam Account</a></li>
-          <li><a href="mailto:peyton.duncan@thewalkerschool.org?Subject=I%20Saw%20Your%20Website!" target="_top">Contact Me! <span class="glyphicon glyphicon-envelope" aria-hidden="true"></span></a></li>
+        <div class="link-box" id="box-2">
+          <div class="headline">
+            <h2>CODE</h2></div>
+            <ul>
+              <li><a href="http://github.com">Github</a></li>
+              <li><a href="https://docs.oracle.com/javase/8/docs/api/">Java API</a></li>
+              <li><a href="http://www.w3schools.com/">W-3 Schools</a></li>
+              <li><a href="https://pastebin.com">Pastebin</a></li>
+              <li><a href="https://stackoverflow.com">Stack Overflow</a></li>
+            </ul>
+          </div>
 
+          <div class="link-box" id="box-3">
+            <div class="headline">
+              <h2>NEWS</h2></div>
+              <ul>
+              <li><a href="https://krebsonsecurity.com">Krebs On Security</a></li>
+              <li><a href="https://Gizmodo.com">Gizmodo</a></li>
+              <li><a href="https://Kotaku.com">Kotaku</a></li>
+              <li><a href="https://Lifehacker.com">Lifehacker</a></li>
+              </ul>
+            </div>
 
-				</div><!-- /.navbar-collapse -->
-			</div><!-- /.container-fluid -->
-		</nav>
+            <div class="link-box" id="box-4">
+              <div class="headline">
+                <h2>VIDEO</h2></div>
+                <ul>
+                  <li><a href="https://youtube.com">Youtube</a></li>
+                  <li><a href="https://www.youtube.com/playlist?list=PLx65qkgCWNJIs3FPaj8JZhduXSpQ_ZfvL">Youtube - Study</a></li>
+                  <li><a href="http://twitch.tv">Twitch</a></li>
+                  <li><a href="http://netflix.com">Netflix</a></li>
+                  <li><a href="http://plex.tv">Plex</a></li>
+                </ul>
+              </div>
 
-		<!--END OF NAVBAR-->
-		<div class="container">
-			<div class="row">
-				<div class="alert xs-offset4 xs-span6 alert-warning" role="alert">This page is still under development, you have been WARNED!</div>
-			</div>
+            
+            <div class="link-box" id="box-5">
+              <div class="headline">
+                <h2>ETC</h2></div>
+                <ul>
+                  <li><a href="https://reddit.com">Reddit</a></li>
+                  <li><a href="https://play.spotify.com/">Spotify Web Player</a></li>
+                  <li><a href="http://web.whatsapp.com">Whatsapp Web</a></li>
+                  <li><a href="http://amazon.com">Amazon</a></li>
+                </ul>
+              </div>
 
+            </div>
+            <div class = "photoframe">
+            <img src="res/img/AddamsBoard.jpg" alt="" class = "bottomPicture">
+            <img src="res/img/AddamsStage.jpg" alt="" class = "bottomPicture">
+            <br>
+            <img src="res/img/SwingBoard.jpg" alt="" class = "bottomPicture">
+            <img src="res/img/SwingStage.jpg" alt="" class = "bottomPicture">
+            <br>
+            <img src="res/img/BellsBoard.jpg" alt="" class = "bottomPicture">
+            <img src="res/img/BellsStage.jpg" alt="" class = "bottomPicture">
+</div>  
+            <!-- <div class="second-container">
+              <div id="weather-clock-container">
+                <div id="clock-container">
+                  <span id='city'></span>
+                  <span id="clock"></span>
+                </div>
 
-			<!-- END OF ALERT -->
-			<div class="panel panel-default xs-offset4 xs-span8">
-				<div class="panel-heading">
-					<h3 class="panel-title">About Me!</h3>
-				</div>
-				<div class="panel-body">
-					<p>
+                <div id="temperature">
+                  <span></span>
+                </div>
+              </div>
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean hendrerit tellus non arcu lobortis vulputate vel sed lacus. Sed non rutrum lectus, ac hendrerit purus. Duis non finibus lacus, vitae consectetur orci. Mauris tristique ornare sapien eu convallis. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Vestibulum malesuada velit enim, ac hendrerit lacus sollicitudin nec. Aliquam fringilla, elit eu tincidunt bibendum, tortor eros sagittis nisl, sed hendrerit sem odio quis neque. Ut sit amet commodo lectus, a rhoncus nisl.
+              <div id="weather-data">
+                <table>
+                  <tr class="bordered">
+                    <td>
+                      <div id="weather-icon">
+                        <img alt="weather-icon" />
+                        <span></span>
+                      </div>
+                    </td>
+                    <td>
+                      <div id="additional-data">
+                        <span id="pressure"></span>
+                        <span id="humidity"></span>
+                      </div>
+                    </td>
+                  </tr>
+                  <tr>
+                    <td>
+                      <div class="compass">
+                        <div id="wind-arrow"></div>
+                      </div>
+                    </td>
+                    <td>
+                      <div id="wind-data">
+                        <span id="wind-degree"></span>
+                        <span id="wind-speed"></span>
+                      </div>
+                    </td>
+                  </tr>
+                </table>
+              </div>
+            </div> -->
+          </main>
 
-Ut sed maximus enim. Vestibulum consectetur scelerisque leo, finibus aliquet lectus efficitur vel. Suspendisse eu odio vel lorem iaculis faucibus nec at urna. Vestibulum non faucibus odio, feugiat pulvinar nunc. Nulla lacinia massa orci. Nulla ac placerat leo. Etiam et sapien et nulla aliquet accumsan. Nullam rhoncus vulputate consequat. Maecenas rhoncus semper erat, eget vulputate dui imperdiet eget. Aenean non mauris lacus. Cras eleifend lectus pharetra venenatis condimentum. Praesent pharetra cursus ex nec mollis. Nullam ac pretium nunc.
+          <footer>
 
-Duis vitae ultricies sapien, id gravida erat. Donec fringilla arcu et molestie vehicula. Phasellus efficitur tincidunt quam vitae luctus. Morbi lectus dolor, faucibus a leo nec, laoreet venenatis arcu. Phasellus placerat dolor ac lacus fringilla, id porta libero sollicitudin. Duis iaculis mauris vel finibus efficitur. Vestibulum sed fermentum sem. Etiam laoreet mollis ligula quis facilisis. Donec tincidunt erat in sapien blandit feugiat. Quisque porta vestibulum ipsum, ut facilisis nisi sagittis ut. Donec vitae tortor suscipit, sagittis tellus sit amet, vehicula nisi. Morbi non lorem commodo, faucibus nibh eget, dictum massa. In hac habitasse platea dictumst. Fusce elementum, dolor id ullamcorper aliquam, odio enim accumsan velit, ac rhoncus odio sem nec tellus. Ut ac euismod lorem, id aliquam velit. Nam a nisi id turpis pharetra pharetra.
+          </footer>
 
-Phasellus sollicitudin sit amet leo a rhoncus. Nullam eget leo tristique, blandit ex ut, dignissim libero. Ut faucibus metus eget nibh tempus, sit amet rhoncus mauris dapibus. Nulla hendrerit elit massa, et placerat justo ultricies quis. Cras quis enim purus. Vestibulum tristique risus non mi tincidunt semper. Phasellus aliquet enim sit amet massa auctor, nec tristique lacus ultrices. Maecenas consequat eget turpis at dictum. Praesent sit amet nulla sapien. Ut quam purus, condimentum ac ultricies sit amet, scelerisque in felis. In hac habitasse platea dictumst. Nullam viverra metus in ante lobortis auctor. Donec ullamcorper viverra rhoncus. Vestibulum venenatis, leo et tempor ultrices, mi libero imperdiet velit, sit amet sagittis nibh neque sed massa.
+        </body>
 
-Nunc non porttitor lectus. Proin vel ipsum ac odio vulputate porttitor. Pellentesque id orci nibh. Vestibulum in ullamcorper nulla, ut accumsan felis. Duis fringilla lorem a lobortis pulvinar. Curabitur odio massa, porttitor a urna sit amet, dignissim sollicitudin nibh. Ut elit eros, euismod id erat quis, viverra commodo tortor. Donec sed tortor vitae nisl accumsan dictum eu ut lectus. Cras commodo pulvinar nulla, in aliquam enim viverra eget. Etiam tristique hendrerit mi, sit amet pretium arcu tempor consectetur. Curabitur vel tellus metus. Maecenas iaculis turpis dui, eget tristique nulla lacinia id. In ultrices enim sit amet ipsum maximus finibus. Nulla malesuada laoreet lorem, at vehicula sem semper eu. Suspendisse dignissim pulvinar vehicula. </p></div>
-				</div>
-			</div>
-			<script>
-		  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
-		  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
-		  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
-		  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
-
-		  ga('create', 'UA-62273125-1', 'auto');
-		  ga('send', 'pageview');
-
-		</script>
-			<script src="https://code.jquery.com/jquery.js"></script>
-			<!-- Latest compiled and minified JavaScript -->
-			<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/js/bootstrap.min.js"></script>
-
-		</body>
-
-
-		</html>
+        </html>
