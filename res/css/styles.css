@@ -1,6 +1,6 @@
 body
 {
-    font-family: 'Roboto', sans-serif;
+    font-family: 'Raleway', sans-serif;
 
     max-width: 1500px;
     margin: 0 auto;
@@ -55,8 +55,8 @@ div.clock
 {
     text-align: center;
     font-size: 2rem;
-    color: #e1f2bc;
-    font-family: 'Itim', cursive;
+    color: #e5e5e5 ;
+    font-family: 'Share Tech Mono', monospace;
 }
 
 div.flex-container
@@ -76,7 +76,7 @@ div.second-container
 {
     display: flex;
 
-    max-width: 450px;
+    max-width: 700px;
     margin: 100px auto;
     padding: 2rem;
 
@@ -136,7 +136,7 @@ div.link-box div.headline > h2
 
 div.link-box ul
 {
-    margin-bottom: 0;
+    margin-bottom: 5;
     padding: 0;
 
     list-style-type: none;
@@ -358,6 +358,11 @@ div.link-box#box-4 div.headline
 div.link-box#box-5 div.headline
 {
     background-color: #FC9E4F;
+}
+
+div.link-box#box-6 div.headline
+{
+    background-color: #65A385;
 }
 
 
