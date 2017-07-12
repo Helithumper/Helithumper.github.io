@@ -54,7 +54,7 @@ img.bottomPicture
 div.clock
 {
     text-align: center;
-    font-size: 2rem;
+    font-size: 2em;
     color: #e5e5e5 ;
     font-family: 'Share Tech Mono', monospace;
 }
@@ -334,10 +334,14 @@ div.search-suggestions a
     text-decoration: none;
 }
 
+#UCF
+{
+    color: #000000;
+}
 
 div.link-box#box-1 div.headline
 {
-    background-color: #3a86ff;
+    background-color: #FFC904;
 }
 
 div.link-box#box-2 div.headline
