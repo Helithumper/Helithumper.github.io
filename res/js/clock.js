@@ -5,7 +5,7 @@ $(window).on('load', function() {
 
 function startTime() {
     var today = new Date();
-    var h = today.getHours()%12;
+    var h = (today.getHours()==12)?12:today.getHours()%12;
     var ampm = (today.getHours>=12)?" AM":" PM";
     var m = today.getMinutes();
     var s = today.getSeconds();
